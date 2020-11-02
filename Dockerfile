@@ -5,8 +5,8 @@ FROM $BASE_CONTAINER
 LABEL maintainer="Methodology 4 Assignment"
 
 USER root
-Run apt-get install aria2
 Run apt-get install nmap
+Run apt-get install aria2
 Run apt-get install traceroute
 
 Run pip install geopandas
